@@ -30,12 +30,19 @@
     "@coreui/react": "^4.3.1",
     "@coreui/react-chartjs": "^2.1.0",
     "@coreui/utils": "^1.3.1",
+    "axios": "^1.1.3",
     "chart.js": "^3.9.1",
     "classnames": "^2.3.1",
     "core-js": "^3.24.1",
+    "date-fns": "^2.29.3",
+    "lodash": "^4.17.21",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-app-polyfill": "^3.0.0",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-overlay": "^2.0.0",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-bootstrap-table2-toolkit": "^2.1.3",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
     "react-router-dom": "^6.3.0",
@@ -57,5 +64,17 @@
   "engines": {
     "node": ">=10",
     "npm": ">=6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
